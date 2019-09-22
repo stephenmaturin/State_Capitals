@@ -1,0 +1,715 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "330971d2-dd43-11e9-a705-8c859041a86d",
+    "deck_config_uuid": "30739790-d55f-11e9-8b34-8c859041a86d",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "30739790-d55f-11e9-8b34-8c859041a86d",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 0,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "Please see the <a href='https://ankiweb.net/shared/info/994187204'>shared deck page</a> for more info.",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [],
+    "name": "State Capitals",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic-cbb83",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Alaska",
+                "Juneau"
+            ],
+            "flags": 0,
+            "guid": "bs|UkRPK~^",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Arizona",
+                "Phoenix"
+            ],
+            "flags": 0,
+            "guid": "Ml`~y(/e1_",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Arkansas",
+                "Little Rock"
+            ],
+            "flags": 0,
+            "guid": "g8C]j5zHhF",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "California",
+                "Sacramento"
+            ],
+            "flags": 0,
+            "guid": "vzuVR9K?9d",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Colorado",
+                "Denver"
+            ],
+            "flags": 0,
+            "guid": "i}fUin=f<]",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Connecticut",
+                "Hartford"
+            ],
+            "flags": 0,
+            "guid": "b;hcm8nI<7",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Delaware",
+                "Dover"
+            ],
+            "flags": 0,
+            "guid": "bN!vx[otTF",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Florida",
+                "Tallahassee"
+            ],
+            "flags": 0,
+            "guid": "M]C#ETuT(C",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Georgia",
+                "Atlanta"
+            ],
+            "flags": 0,
+            "guid": "qEjb}jmONs",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Hawaii",
+                "Honolulu"
+            ],
+            "flags": 0,
+            "guid": "kmP~x|>[om",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Idaho",
+                "Boise"
+            ],
+            "flags": 0,
+            "guid": "DE?,0EzOA4",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Illinios",
+                "Springfield"
+            ],
+            "flags": 0,
+            "guid": "rul)7fz(/b",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Indiana",
+                "Indianapolis"
+            ],
+            "flags": 0,
+            "guid": "kaa9rpG#[4",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Iowa",
+                "Des Moines"
+            ],
+            "flags": 0,
+            "guid": "x,YFq*zi%k",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Kansas",
+                "Topeka"
+            ],
+            "flags": 0,
+            "guid": "I!R.)L2CdG",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Kentucky",
+                "Frankfort"
+            ],
+            "flags": 0,
+            "guid": "b3Fi/&,~HT",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Louisiana",
+                "Baton Rouge"
+            ],
+            "flags": 0,
+            "guid": "yL-K&)XuTE",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Maine",
+                "Augusta"
+            ],
+            "flags": 0,
+            "guid": "gSFmIBB-_Z",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Maryland",
+                "Annapolis"
+            ],
+            "flags": 0,
+            "guid": "xSc3qG5E_g",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Massachusetts",
+                "Boston"
+            ],
+            "flags": 0,
+            "guid": "nKXCHfbUNb",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Michigan",
+                "Lansing"
+            ],
+            "flags": 0,
+            "guid": "DLm&a]lP3{",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Minnesota",
+                "Saint Paul"
+            ],
+            "flags": 0,
+            "guid": "GQ?t=mT<Ci",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Mississippi",
+                "Jackson"
+            ],
+            "flags": 0,
+            "guid": "cOe7rU$kK%",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Missouri",
+                "Jefferson City"
+            ],
+            "flags": 0,
+            "guid": "fpgxN*ij7b",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Montana",
+                "Helena"
+            ],
+            "flags": 0,
+            "guid": "q^lBn9rtdd",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Nebraska",
+                "Lincoln"
+            ],
+            "flags": 0,
+            "guid": "QWK-MW63s:",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Nevada",
+                "Carson City"
+            ],
+            "flags": 0,
+            "guid": "Q%&a+9d:XU",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "New Hampshire",
+                "Concord"
+            ],
+            "flags": 0,
+            "guid": "EzWY+jt`Y5",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "New Jersey",
+                "Trenton"
+            ],
+            "flags": 0,
+            "guid": "p1iW`RNRd]",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "New Mexico",
+                "Santa Fe"
+            ],
+            "flags": 0,
+            "guid": "u6@=s*/u28",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "New York",
+                "Albany"
+            ],
+            "flags": 0,
+            "guid": "tQ#a6{8#99",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "North Carolina",
+                "Raleigh"
+            ],
+            "flags": 0,
+            "guid": "g2rT3Fz[c@",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "North Dakota",
+                "Bismark"
+            ],
+            "flags": 0,
+            "guid": "p,Kq)-xYa<",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ohio",
+                "Columbus"
+            ],
+            "flags": 0,
+            "guid": "J%@,W6Ezh:",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Oklahoma",
+                "Oklahoma City"
+            ],
+            "flags": 0,
+            "guid": "fwf;Qi}e<U",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Oregon",
+                "Salem"
+            ],
+            "flags": 0,
+            "guid": "Pt$Uib6??U",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Pennsylvania",
+                "Harrisburg"
+            ],
+            "flags": 0,
+            "guid": "daWEQ!PQ~c",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Rhode Island",
+                "Providence"
+            ],
+            "flags": 0,
+            "guid": "i;GrJ$.KtA",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "South Carolina",
+                "Columbia"
+            ],
+            "flags": 0,
+            "guid": "p6|H.>Po%X",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "South Dakota",
+                "Pierre"
+            ],
+            "flags": 0,
+            "guid": "zm~HxsW2t:",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tennessee",
+                "Nashville"
+            ],
+            "flags": 0,
+            "guid": "qu2|uIS{[G",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Texas",
+                "Austin"
+            ],
+            "flags": 0,
+            "guid": "L?0fIK)&,?",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Utah",
+                "Salt Lake City"
+            ],
+            "flags": 0,
+            "guid": "BB$A7cNRP9",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Vermont",
+                "Montpelier"
+            ],
+            "flags": 0,
+            "guid": "n<>-t`Wz-?",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Virginia",
+                "Richmond"
+            ],
+            "flags": 0,
+            "guid": "FG<23D*Y5-",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Washington",
+                "Olympia"
+            ],
+            "flags": 0,
+            "guid": "J9/7NA4(L2",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "West Virginia",
+                "Charleston"
+            ],
+            "flags": 0,
+            "guid": "p[QewPwCX<",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wisconsin",
+                "Madison"
+            ],
+            "flags": 0,
+            "guid": "w38ts6tK_S",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wyoming",
+                "Cheyenne"
+            ],
+            "flags": 0,
+            "guid": "P8gY*j`6E6",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Alabama&nbsp;",
+                "Montgomery"
+            ],
+            "flags": 0,
+            "guid": "LoU=j?GZ,[",
+            "note_model_uuid": "33098d28-dd43-11e9-b5d0-8c859041a86d",
+            "tags": []
+        }
+    ]
+}
